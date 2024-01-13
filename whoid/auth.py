@@ -21,12 +21,3 @@ class WhoID:
             return response
         except Exception as e:
             return e
-
-
-
-if __name__ == "__main__":
-    finder = WhoID('0dbda7b1-a64e-4927-940d-e8837cd25e83')
-    user = finder.check_user('ser@mail.ru', 'abc123')
-    fio = finder.check_fio('Сергеев Сергей')
-    print(user)
-    print(fio)

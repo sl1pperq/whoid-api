@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='whoid_api',
-    version='0.0.1',
+    version='0.0.2',
     author='sl1pper',
     author_email='averin_sd@icloud.com',
     description='API to the unified authorization system WhoID (whoid.ru)',

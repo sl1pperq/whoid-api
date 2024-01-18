@@ -21,3 +21,12 @@ class WhoID:
             return response
         except Exception as e:
             return e
+
+    def check_auth(self, id):
+        try:
+            response = requests.get(
+                f'https://whoid.ru/api/auth/find?id={id}&token={self.token}'
+            ).json()
+            return response
+        except Exception as e:
+            return e

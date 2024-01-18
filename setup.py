@@ -8,15 +8,15 @@ def readme():
 
 setup(
     name='whoid_api',
-    version='0.0.2',
+    version='0.0.4',
     author='sl1pper',
     author_email='averin_sd@icloud.com',
-    description='API to the unified authorization system WhoID (whoid.ru)',
+    description='API для взаимодействия с сервисом авторизации WhoID',
     long_description=readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/sl1pperq/whoid-api',
     packages=find_packages(),
-    install_requires=['requests'],
+    install_requires=['requests', 'pytelegrambotapi'],
     classifiers=[
         'Programming Language :: Python :: 3.11',
         'License :: OSI Approved :: MIT License',

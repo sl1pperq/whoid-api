@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: whoid-api
-Version: 0.0.3
-Summary: API to the unified authorization system WhoID (whoid.ru)
+Version: 0.0.5
+Summary: API для взаимодействия с сервисом авторизации WhoID
 Home-page: https://github.com/sl1pperq/whoid-api
 Author: sl1pper
 Author-email: averin_sd@icloud.com

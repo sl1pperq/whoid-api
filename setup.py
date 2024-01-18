@@ -8,10 +8,10 @@ def readme():
 
 setup(
     name='whoid_api',
-    version='0.0.4',
+    version='0.0.5',
     author='sl1pper',
     author_email='averin_sd@icloud.com',
-    description='API для взаимодействия с сервисом авторизации WhoID',
+    description='API for whoid.ru',
     long_description=readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/sl1pperq/whoid-api',
